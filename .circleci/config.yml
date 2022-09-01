@@ -50,6 +50,8 @@ jobs:
             DB_PORT=$DB_PORT
             PORT=$PORT
             JWT_SECRET=$JWT_SECRET
+            AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+            AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
       - run:
           name: Back-End Deploy
           command: |
