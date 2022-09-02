@@ -8,7 +8,7 @@ you can find the configuration in the .circleci/config.yml file.
 
 ## Steps of the pipeline
 
-* install node (version 16.13)
+* install node (version 16.15.1)
 * setup aws cli and eb cli
 * install frontend dependencies
 * build frontend
